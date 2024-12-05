@@ -1,0 +1,71 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin",
+      "role": "admin",
+      "status": "Active",
+      "permissions": [
+        "create",
+        "edit",
+        "delete",
+        "read"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "User",
+      "role": "admin",
+      "status": "Active",
+      "permissions": [
+        "read"
+      ]
+    },
+    {
+      "id": 1733322408210,
+      "name": "Nithish",
+      "role": "user",
+      "status": "Active"
+    },
+    {
+      "id": 1733322980211,
+      "name": "Nethaji",
+      "role": "user",
+      "status": "Active",
+      "permissions": [
+        "read"
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "id": "1",
+      "name": "Admin",
+      "permissions": [
+        "create",
+        "read",
+        "edit",
+        "delete"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "User",
+      "permissions": [
+        "read"
+      ]
+    },
+    {
+      "id": 1733316421495,
+      "name": "Developer",
+      "permissions": []
+    },
+    {
+      "id": 1733323223431,
+      "name": "Frontend Developer ",
+      "permissions": [
+        "read"
+      ]
+    }
+  ]
+}

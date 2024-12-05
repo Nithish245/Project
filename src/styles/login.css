@@ -1,0 +1,85 @@
+/* Create User Section */
+.create-user {
+  margin-bottom: 20px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.create-user input,
+.create-user select {
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+}
+
+.create-user button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.create-user button:hover {
+  background-color: #45a049;
+}
+
+/* User List */
+.user-list table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.user-list th,
+.user-list td {
+  padding: 15px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.user-list th {
+  background-color: #4a90e2;
+  color: white;
+}
+
+.user-list tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.user-list button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.user-list button:hover {
+  opacity: 0.8;
+}
+
+.user-list .edit-btn {
+  background-color: #2196f3;
+  color: white;
+}
+
+.user-list .delete-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+.user-list .save-btn {
+  background-color: #4caf50;
+  color: white;
+}
+
+.user-list .cancel-btn {
+  background-color: #f44336;
+  color: white;
+}
